@@ -21,4 +21,23 @@ function one(){
     // console.log(website);
     two()
 }
-one()
+// one()
+if(true) {
+    const username="hitesh"
+    if(username==="hitesh"){
+        const website="youtube"
+        // console.log(username+website);
+    }
+    // console.log();
+}
+console.log(addone(5));
+function addone(num){
+    return num+1
+}
+
+addtwo(5)            //hoisting
+const addtwo = function(num){
+    return num+2
+}
+
+
